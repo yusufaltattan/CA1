@@ -58,15 +58,15 @@ public class University {
 		// Creating University
 		University myUniversity = new University();
 		myUniversity.setmoduleDescriptors(ModuleDescriptor.getStaticData());
-		//myUniversity.setStudents(Student.getStaticData());
+		myUniversity.setStudents(Student.getStaticData());
 		
 		// Linking Module Descriptors to University
 		Module x = new Module();
 		x.module = myUniversity.getmoduleDescriptors()[0];
 
 		// Linking Students to University
-		//Student y = new Student();
-		//y.student = myUniversity.getStudents()[0];
+		Student y = new Student();
+		y.student = myUniversity.getStudents()[0];
 
 
 		System.out.println(myUniversity.getmoduleDescriptors()[0].get_name());

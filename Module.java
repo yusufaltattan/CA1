@@ -12,7 +12,7 @@ public class Module {
 	public byte getTerm() {
 		return this.term;
 	}
-	public ModuleDescriptor[] getModule() {
+	public ModuleDescriptor getModule() {
 		return this.module;
 	}
 
@@ -23,7 +23,7 @@ public class Module {
 	public void setTerm(byte term) {
 		this.term = term;
 	}
-	public void setModuleDescriptor(ModuleDescriptor[] module) {
+	public void setModuleDescriptor(ModuleDescriptor module) {
 		this.module = module;
 	}
 

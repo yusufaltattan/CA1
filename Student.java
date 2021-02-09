@@ -42,17 +42,15 @@ public class Student {
 	}
 
 	// Constructors
-
 	public Student(int id, String name, char gender, double gpa, StudentRecord[] records) {
 		this.id = id;
 		this.name = name;
 		this.gender = gender;
 		this.gpa = gpa;
-		this.StudentRecord = records;
+		this.records = records;
 	}
 
 	// Load Data Staticly
-
 	public static Student[] getStaticData(){
 		// Creating Student Properties
 		Student Ana = new Student(1000, "Ana", 'F', 5.5, new StudentRecord[]{5});
