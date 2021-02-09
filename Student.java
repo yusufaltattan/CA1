@@ -23,7 +23,7 @@ public class Student {
 	public StudentRecord[] getStudentRecords() {
 		return this.records;
 	}
-
+	
 	// Set Functions
 	public void setID(int id) {
 		this.id = id;
@@ -65,12 +65,11 @@ public class Student {
 		Student Rachel = new Student(1009, "Rachel", 'F', 5.5, new StudentRecord[]{5});
 		return new Student[]{Ana, Oliver, Mary, John, Noah, Chico, Maria, Mark, Lia, Rachel};
 	}
-
+	
 	public String printTranscript() {
 		// do something
-		
-		return "";
+		return "\n" + "\n" + "ID:" + Student.getid() + "Name:" + Student.getName() + "GPA:" + Student.getgpa() + "\n" + "| " + StudentRecord.getYear + 
+		" | ";
 	}
-	
 }
 

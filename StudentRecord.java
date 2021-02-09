@@ -40,6 +40,6 @@ public class StudentRecord {
 	}
 
 	// Constructors
-	
+	public StudentRecord(Student student, Module module, double[] marks, double finalScore)
 
 }

@@ -28,11 +28,22 @@ public class Module {
 	}
 
 	// Constructors
-	public module(int year, byte term, ModuleDescriptor module) {
+	public Module(int year, byte term, ModuleDescriptor module) {
 		this.year = year;
 		this.term = term;
 		this.module = module;
 	}
+
+	// Load Data Staticly
+	public static Module[] getStaticData(){
+		// Create Module Descriptors
+		Module ECM1400Term1 = new Module(2019, 1, );
+		Module  = new Module(year, term, module);
+		Module  = new Module(year, term, module);
+		Module  = new Module(year, term, module);
+		Module  = new Module(year, term, module);
+		Module  = new Module(year, term, module);
+		return new Module[]{};
 
 	//store module descriptor 
 	

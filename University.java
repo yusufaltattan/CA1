@@ -72,6 +72,8 @@ public class University {
 		System.out.println(myUniversity.getmoduleDescriptors()[0].get_name());
 		System.out.println(myUniversity.getNumberOfModules());
 
+		System.out.println(myUniversity.getStudents()[0].getName());
+
 
 	}
 }
