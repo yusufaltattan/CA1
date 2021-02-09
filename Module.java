@@ -3,7 +3,7 @@ public class Module {
 	// Properties
 	private int year;
 	private byte term;
-	public ModuleDescriptor module;
+	private ModuleDescriptor module;
 
 	// Get Functions
 	public int getYear() {
@@ -28,7 +28,11 @@ public class Module {
 	}
 
 	// Constructors
-
+	public module(int year, byte term, ModuleDescriptor module) {
+		this.year = year;
+		this.term = term;
+		this.module = module;
+	}
 
 	//store module descriptor 
 	

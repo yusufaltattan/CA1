@@ -53,7 +53,7 @@ public class Student {
 	// Load Data Staticly
 	public static Student[] getStaticData(){
 		// Creating Student Properties
-		Student Ana = new Student(1000, "Ana", 'F', 5.5, new StudentRecord[]{5});
+		Student Ana = new Student(1000, "Ana", 'F', 5.5, new StudentRecord[]{});
 		Student Oliver = new Student(1001, "Oliver", 'M', 5.5, new StudentRecord[]{5});
 		Student Mary = new Student(1002, "Mary", 'F', 5.5, new StudentRecord[]{5});
 		Student John = new Student(1003, "John", 'M', 5.5, new StudentRecord[]{5});

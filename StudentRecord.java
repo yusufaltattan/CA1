@@ -1,7 +1,7 @@
 public class StudentRecord {
 
 	// Properties
-	public Student student;
+	private Student student;
 	
 	private Module module;
 	
