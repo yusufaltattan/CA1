@@ -24,6 +24,13 @@ public class StudentRecord {
 	public double getFinalScore() {
 		return this.finalScore;
 	}
+	public double finalScore(){
+		for(int i = 0; i<this.marks.length; i++){
+			finalGrade = finalGrade + this.marks[i].getFinalScore * ModuleDescriptor.con
+		}
+		double average = totalGrade / this.records.length;
+		return average;
+	}
 
 	// Set Functions
 	public void setStudents(Student student) {
@@ -40,6 +47,19 @@ public class StudentRecord {
 	}
 
 	// Constructors
-	public StudentRecord(Student student, Module module, double[] marks, double finalScore)
+	public StudentRecord(Student student, Module module, double[] marks, double finalScore) {
+		this.student = student;
+		this.module = module;
+		this.marks = marks;
+		this.finalScore = finalScore;
+	}
+
+	// Load Data Staticly
+	public static StudentRecord[] getStaticData(){
+		// Create Module Descriptors
+		StudentRecord anaRecord = new StudentRecord(Student Ana, Module PRG, new double[] {9,10,10,10}, finalScore);
+
+		return new StudentRecord[]{};
+	}
 
 }
